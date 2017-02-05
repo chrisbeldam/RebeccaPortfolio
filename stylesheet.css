@@ -1,0 +1,218 @@
+body {
+ background-color:#f9f9f9;
+}
+
+h1, h2, h3, h4, h5 {
+ font-family: sans-serif;
+ font-style: normal;
+ text-align:center;
+ color:black;
+} 
+
+img { max-width: 100%;}
+
+h3 {
+ text-transform:capitalize;
+ font-size:1.875em;
+ padding:0 0 1% 0;
+ color:black;
+ font-weight:800;
+}
+
+header {
+ background-color:rgb(255,20,147);
+ background-size: cover;
+ background-position: center top;
+ width:100%;
+}
+
+/*Introduction Section CSS*/
+
+.introduction {
+ max-width: 960px;
+ margin:0 auto;
+ padding:6% 0;
+ text-align: center;
+}
+
+.introduction h1 {
+ font-size: 60px;
+ text-align: center;
+ color: #fff;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ font-weight: 800;
+ line-height:1.5em;
+}
+
+.introduction h2 {
+ font-size: 32px;
+ text-align:center;
+ color:#fff;
+ font-weight:300;
+ text-transform:capitalize;
+ letter-spacing:0.09em;
+ margin-bottom:30px;
+}
+
+.introduction a {
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+}
+/*Whole website wrapper*/
+
+.wrapper {
+ max-width:960px;
+ margin:0 auto;
+ font-family: sans-serif;
+ -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+ animation-delay: 2s;
+}
+
+/*About Section CSS*/
+
+.about {
+ padding:3% 0;
+}
+.about p {
+ font-family: sans-serif;
+ font-weight: 300;
+ line-height: 1.7;
+ color: black;
+ margin: 10px auto;
+ font-size:18px;
+ padding:2% 0;
+ text-align: center;
+}
+
+/*Work Section CSS*/
+
+.work {
+ height:300px;
+ padding:2% 0;
+}
+
+.work p {
+    text-align:center;
+    font-size:18px;
+}
+
+.work h3 {
+ padding:1% 0;
+ font-size:38px;
+}
+
+#myworkheading {
+    font-weight: bold;
+    margin-top:28px;
+}
+
+/*Button CSS*/
+
+.button {
+ padding:5%;
+ border: 3px solid rgb(255,20,147);
+ letter-spacing:0.2em;
+ text-decoration:none;
+ color:rgb(255,20,147);
+ text-align:center;
+ display:block;
+ font-weight:600;
+ text-transform:uppercase;
+ margin-top:4%;
+}
+
+.button:hover {
+ color:white;
+ background-color:rgb(255,20,147);
+}
+
+.image-area {
+ width:480px;
+ height:300px;
+ overflow:hidden;
+}
+
+/*Image floating properties*/
+/*.left {
+ float:left;
+}
+.right {
+ float:right;
+}*/
+
+/*Contact CSS*/
+
+.contact {
+ width:100%;
+ border: 3px solid rgb(255,20,147);
+ padding:5% 0;
+ margin-top:5%;
+ margin-bottom: 5%;
+ clear:both;
+}
+
+.contact-content {
+ max-width:960px;
+ margin:0 auto;
+ text-align:center;
+}
+.contact-content h4 {
+ padding:1% 0;
+ color:black;
+ font-weight:bold;
+}
+.contact-content a {
+ color:rgb(255,20,147);
+ text-decoration:none;
+}
+
+/*Image Divider CSS*/
+/*Used to seperate the project work from the footer section and the image from the introduction section*/
+
+
+.image-dividertop {
+ padding:15% 0;
+ margin-bottom:5%;
+ background: url(img/html.jpg);
+ background-size: cover;
+ background-position: center top;
+}
+
+
+.image-dividerbottom {
+ padding:15% 0;
+ margin-top:65px;
+ background: url(img/desk.jpg);
+ background-size: cover;
+ background-position: center top;
+}
+
+
+/*Footer CSS*/
+
+footer {
+ background-color:rgb(255,20,147);
+ color:white;
+ padding:2% 0;
+ width:100%;
+ clear:both;
+ height:100px;
+}
+
+.footer-content {
+ max-width:960px;
+ padding:2% 0;
+ margin:0 auto;
+ font-family: sans-serif;
+ color: white;
+ letter-spacing: 1px;
+}
+
+.footer-content p {
+    text-align: center;
+    margin: 0px 0 13px;
+}
+
